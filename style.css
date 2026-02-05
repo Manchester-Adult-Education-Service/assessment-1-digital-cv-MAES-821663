@@ -17,3 +17,11 @@ h1, h2 {
 li {
     padding-top: 10px;
 }
+
+#Education {
+    background-image: linear-gradient(to right, rgba(19, 187, 19, 0.637), lightsteelblue);
+}
+
+#Techskills {
+    background-image: linear-gradient(to right, rgba(146, 23, 228, 0.637), lightsteelblue);
+}
