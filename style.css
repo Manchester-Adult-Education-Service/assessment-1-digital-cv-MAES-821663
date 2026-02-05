@@ -1,0 +1,27 @@
+main {
+    background-color: rgba(175, 238, 238, 0.342);
+    padding: 18px;
+    margin-right: 1400px;
+    background-image: linear-gradient(to right, rgba(175, 238, 238, 0.342), lightsteelblue);
+}
+
+body {
+    background-color:lightsteelblue;
+    font-family: Georgia, sans-serif;
+}
+
+h1, h2 {
+    color: maroon;
+}
+
+li {
+    padding-top: 10px;
+}
+
+#Education {
+    background-image: linear-gradient(to right, rgba(19, 187, 19, 0.637), lightsteelblue);
+}
+
+#Techskills {
+    background-image: linear-gradient(to right, rgba(146, 23, 228, 0.637), lightsteelblue);
+}
