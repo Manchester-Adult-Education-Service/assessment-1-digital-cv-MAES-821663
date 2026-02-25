@@ -18,10 +18,19 @@ li {
     padding-top: 10px;
 }
 
+#Work {
+    background-image: linear-gradient(to right, rgba(236, 186, 22, 0.637), lightsteelblue);
+}
+
 #Education {
     background-image: linear-gradient(to right, rgba(19, 187, 19, 0.637), lightsteelblue);
 }
 
 #Techskills {
     background-image: linear-gradient(to right, rgba(146, 23, 228, 0.637), lightsteelblue);
+    display: flex;
+}
+
+#Contact {
+    background-image: linear-gradient(to right, rgba(28, 181, 252, 0.637), lightsteelblue);
 }
