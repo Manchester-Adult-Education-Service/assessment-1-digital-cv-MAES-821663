@@ -22,9 +22,10 @@ quoteBtn.addEventListener("click", function(){
     fetch("https://dummyjson.com/quotes/random")
     .then(Response => Response.json())
     .then(data => {
-        quoteText.textContent = '${data.quote}';
-        quoteAuthor.textContent = '${data.author}';
-    });
+        quoteText.textContent = `"${data.quote}"`;
+        quoteAuthor.textContent = `"${data.author}"`;
+    })
+    .catch(Error => {quoteText.textContent = "Apologies"});
 });
 
 console.log ("The current hour is: " + 13);
